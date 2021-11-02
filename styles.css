@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+main {
+  margin: 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+main h1 {
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  height: 300px;
+  width: 400px;
+}
